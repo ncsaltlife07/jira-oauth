@@ -24,7 +24,7 @@ class JiraOAuth:
                                   '<head><script type="text/javascript">window.close()</script></head>'
                                   '<body>Authorization was successful. You can close this page now.</body></html>')
 
-    oauth_config_dir_path = Path.home() / '.oauthconfig'
+    oauth_config_dir_path = Path.cwd() / '.oauthconfig'
     starter_oauth_config_file = oauth_config_dir_path / 'starter_oauth.config'
     rsa_private_key_file_path = oauth_config_dir_path / 'oauth.pem'
     rsa_public_key_file_path = oauth_config_dir_path / 'oauth.pub'
