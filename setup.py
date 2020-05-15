@@ -27,7 +27,7 @@ install_requires = \
  'poetry-version>=0.1.2,<0.2.0',
  'pycparser>=2.19,<3.0',
  'six>=1.11,<2.0',
- 'tlslite>=0.4.9,<0.5.0',
+ 'tlslite-ng>=0.7.5,<0.8.0',
  'urllib3>=1.24,<2.0',
  'yarl>=1.3,<2.0']
 
